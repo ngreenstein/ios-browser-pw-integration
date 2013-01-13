@@ -13,8 +13,7 @@ Password managers are awesome on desktop platforms. Browser extensions mean that
 #How
 
 ##From a user's perspective
-Here's a video to demonstrate how the interface and flow would work for logging in to a typical website.
-<iframe width="640" height="480" src="http://www.youtube.com/embed/nI0L6S5y9tM" frameborder="0" allowfullscreen></iframe>
+[Here's a video to demonstrate how the interface and flow would work for logging in to a typical website.](http://www.youtube.com/watch?v=nI0L6S5y9tM)
 
 1. The user navigates to the login form.
 2. He runs the 'Login' bookmarklet.

@@ -4,7 +4,7 @@ This is proof of concept code that shows how an iOS password management app (lik
 #Why
 In short, to save an estimated 12 taps each time one has to log in to a website.
 
-Password managers are awesome on desktop platforms. Browser extensions mean that it's easy to use unique, random passwords on each site where one has an account. On iOS, though, browser extensions are not possible. The process of repeatedly switching between browser and password manager and copying/pasting credentials is much more awkward than hitting a keyboard shortcut to open a browser extension. Even worse is when web forms disable pasting altogether.
+Password managers are awesome on desktop platforms. Browser extensions mean that it's easy to use unique, random passwords on each site where one has an account. On iOS, though, browser extensions are not possible. The process of repeatedly switching between browser and password manager and copying/pasting credentials is much more awkward than hitting a keyboard shortcut to open a browser extension. Even worse is when web forms disable pasting altogether.  
 **Total number of keystrokes (desktop):** 2 + typing password.  
 **Estimated total number of taps (iOS):** 17 + typing password.
 

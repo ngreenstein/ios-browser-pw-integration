@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD876B9E168E708400E6CC5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD876B9D168E708400E6CC5D /* UIKit.framework */; };
+		CD876BA0168E708400E6CC5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD876B9F168E708400E6CC5D /* Foundation.framework */; };
+		CD876BA2168E708400E6CC5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD876BA1168E708400E6CC5D /* CoreGraphics.framework */; };
+		CD876BA8168E708400E6CC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD876BA6168E708400E6CC5D /* InfoPlist.strings */; };
+		CD876BAA168E708400E6CC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD876BA9168E708400E6CC5D /* main.m */; };
+		CD876BAE168E708400E6CC5D /* BPIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD876BAD168E708400E6CC5D /* BPIAppDelegate.m */; };
+		CD876BB0168E708400E6CC5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD876BAF168E708400E6CC5D /* Default.png */; };
+		CD876BB2168E708400E6CC5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD876BB1168E708400E6CC5D /* Default@2x.png */; };
+		CD876BB4168E708400E6CC5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD876BB3168E708400E6CC5D /* Default-568h@2x.png */; };
+		CD876BB7168E708400E6CC5D /* BPILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD876BB6168E708400E6CC5D /* BPILoginViewController.m */; };
+		CDBF057016A334240057C25C /* BPILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBF056E16A334240057C25C /* BPILoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD876B99168E708400E6CC5D /* iOS Browser Password Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Browser Password Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD876B9D168E708400E6CC5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD876B9F168E708400E6CC5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD876BA1168E708400E6CC5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD876BA5168E708400E6CC5D /* iOS Browser Password Integration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Browser Password Integration-Info.plist"; sourceTree = "<group>"; };
+		CD876BA7168E708400E6CC5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD876BA9168E708400E6CC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD876BAB168E708400E6CC5D /* iOS Browser Password Integration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Browser Password Integration-Prefix.pch"; sourceTree = "<group>"; };
+		CD876BAC168E708400E6CC5D /* BPIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPIAppDelegate.h; sourceTree = "<group>"; };
+		CD876BAD168E708400E6CC5D /* BPIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPIAppDelegate.m; sourceTree = "<group>"; };
+		CD876BAF168E708400E6CC5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD876BB1168E708400E6CC5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD876BB3168E708400E6CC5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD876BB5168E708400E6CC5D /* BPILoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPILoginViewController.h; sourceTree = "<group>"; };
+		CD876BB6168E708400E6CC5D /* BPILoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPILoginViewController.m; sourceTree = "<group>"; };
+		CDBF056F16A334240057C25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BPILoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD876B96168E708400E6CC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD876B9E168E708400E6CC5D /* UIKit.framework in Frameworks */,
+				CD876BA0168E708400E6CC5D /* Foundation.framework in Frameworks */,
+				CD876BA2168E708400E6CC5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD876B8E168E708400E6CC5D = {
+			isa = PBXGroup;
+			children = (
+				CD876BA3168E708400E6CC5D /* Browser Password Integration */,
+				CD876B9C168E708400E6CC5D /* Frameworks */,
+				CD876B9A168E708400E6CC5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD876B9A168E708400E6CC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD876B99168E708400E6CC5D /* iOS Browser Password Integration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD876B9C168E708400E6CC5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD876B9D168E708400E6CC5D /* UIKit.framework */,
+				CD876B9F168E708400E6CC5D /* Foundation.framework */,
+				CD876BA1168E708400E6CC5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD876BA3168E708400E6CC5D /* Browser Password Integration */ = {
+			isa = PBXGroup;
+			children = (
+				CD876BAC168E708400E6CC5D /* BPIAppDelegate.h */,
+				CD876BAD168E708400E6CC5D /* BPIAppDelegate.m */,
+				CD876BB5168E708400E6CC5D /* BPILoginViewController.h */,
+				CD876BB6168E708400E6CC5D /* BPILoginViewController.m */,
+				CDBF056E16A334240057C25C /* BPILoginViewController.xib */,
+				CD876BA4168E708400E6CC5D /* Supporting Files */,
+			);
+			name = "Browser Password Integration";
+			path = "iOS Browser Password Integration";
+			sourceTree = "<group>";
+		};
+		CD876BA4168E708400E6CC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD876BA5168E708400E6CC5D /* iOS Browser Password Integration-Info.plist */,
+				CD876BA6168E708400E6CC5D /* InfoPlist.strings */,
+				CD876BA9168E708400E6CC5D /* main.m */,
+				CD876BAB168E708400E6CC5D /* iOS Browser Password Integration-Prefix.pch */,
+				CD876BAF168E708400E6CC5D /* Default.png */,
+				CD876BB1168E708400E6CC5D /* Default@2x.png */,
+				CD876BB3168E708400E6CC5D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD876B98168E708400E6CC5D /* iOS Browser Password Integration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD876BBD168E708500E6CC5D /* Build configuration list for PBXNativeTarget "iOS Browser Password Integration" */;
+			buildPhases = (
+				CD876B95168E708400E6CC5D /* Sources */,
+				CD876B96168E708400E6CC5D /* Frameworks */,
+				CD876B97168E708400E6CC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Browser Password Integration";
+			productName = "Password Browser Extension";
+			productReference = CD876B99168E708400E6CC5D /* iOS Browser Password Integration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD876B90168E708400E6CC5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BPI;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nathan Greenstein";
+			};
+			buildConfigurationList = CD876B93168E708400E6CC5D /* Build configuration list for PBXProject "iOS Browser Password Integration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD876B8E168E708400E6CC5D;
+			productRefGroup = CD876B9A168E708400E6CC5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD876B98168E708400E6CC5D /* iOS Browser Password Integration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD876B97168E708400E6CC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD876BA8168E708400E6CC5D /* InfoPlist.strings in Resources */,
+				CD876BB0168E708400E6CC5D /* Default.png in Resources */,
+				CD876BB2168E708400E6CC5D /* Default@2x.png in Resources */,
+				CD876BB4168E708400E6CC5D /* Default-568h@2x.png in Resources */,
+				CDBF057016A334240057C25C /* BPILoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD876B95168E708400E6CC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD876BAA168E708400E6CC5D /* main.m in Sources */,
+				CD876BAE168E708400E6CC5D /* BPIAppDelegate.m in Sources */,
+				CD876BB7168E708400E6CC5D /* BPILoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD876BA6168E708400E6CC5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD876BA7168E708400E6CC5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDBF056E16A334240057C25C /* BPILoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBF056F16A334240057C25C /* en */,
+			);
+			name = BPILoginViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD876BBB168E708500E6CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD876BBC168E708500E6CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD876BBE168E708500E6CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Browser Password Integration/iOS Browser Password Integration-Prefix.pch";
+				INFOPLIST_FILE = "iOS Browser Password Integration/iOS Browser Password Integration-Info.plist";
+				PRODUCT_NAME = "iOS Browser Password Integration";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD876BBF168E708500E6CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Browser Password Integration/iOS Browser Password Integration-Prefix.pch";
+				INFOPLIST_FILE = "iOS Browser Password Integration/iOS Browser Password Integration-Info.plist";
+				PRODUCT_NAME = "iOS Browser Password Integration";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD876B93168E708400E6CC5D /* Build configuration list for PBXProject "iOS Browser Password Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD876BBB168E708500E6CC5D /* Debug */,
+				CD876BBC168E708500E6CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD876BBD168E708500E6CC5D /* Build configuration list for PBXNativeTarget "iOS Browser Password Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD876BBE168E708500E6CC5D /* Debug */,
+				CD876BBF168E708500E6CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD876B90168E708400E6CC5D /* Project object */;
+}
